@@ -17,4 +17,4 @@ Most people say Software development is hard, I believe that its just a matter o
 - Don't forget to read the README.md Documentations.
 
 ## Programming Languages Covered in that order.
-PHP
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
