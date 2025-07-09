@@ -12,8 +12,8 @@ NB: I wont be teaching you how to install any of these, please visit their websi
 
 ## 01. The PHP Structure
 So PHP Supports HTML so by default, utilizes HTML Tags, however the PHP script runs exclusively in its own tag:
-<code>
+```
 <?PHP
 ...Your PHP Script goes here
 ?>
-</code>
+```
