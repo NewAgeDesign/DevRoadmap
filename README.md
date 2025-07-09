@@ -1,6 +1,6 @@
 # DevRoadmap
 Most people say Software development is hard, I believe that its just a matter of Understanding the Fundamentals, so I'll be learning every programming language based on its particular paradigms, hopefully ordering them in terms of complexity and learning curve, but eventually documenting the learning process in the documentations.
----
+
 ## Roadmap
 - We first begin from how the computer works, The Von Neumann Architecture by John Von Neumann, that part is theoretical.
 - Then will cover programming aspects from input and output, along with learning variables and arithmetic operations. As well as structured programming and data structures and algorithms (Including Design and Analysis of Algorithms).
