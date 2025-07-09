@@ -9,3 +9,11 @@ PHP is a scripting Language that's also a hypertext preprocessor, this means tha
 - And Lastly a browser.
 
 NB: I wont be teaching you how to install any of these, please visit their website for more details.
+
+## 01. The PHP Structure
+So PHP Supports HTML so by default, utilizes HTML Tags, however the PHP script runs exclusively in its own tag:
+<code>
+<?PHP
+...Your PHP Script goes here
+?>
+</code>
