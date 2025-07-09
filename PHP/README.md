@@ -20,7 +20,7 @@ Comments are lines of code that wont run on output are written using // For sing
 ```
 From this point forward I'll be posting code snippets assuming you've encapsulated your PHP script in the PHP tag, <?PHP ... ?>, also we'll be running our code through the terminal, because we can and we dont need it for server side scripting for now. Always remember to turn your Server Simmulator first before running PHP scripts.
 
-## To run PHP scripts in your terminal, navigate to your php file and type in `php filename.php`
+To run PHP scripts in your terminal, navigate to your php file and type in `php filename.php`
 ```
 B:\filedirectory> php filename.php
 ```
