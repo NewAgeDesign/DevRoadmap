@@ -15,3 +15,6 @@ Most people say Software development is hard, I believe that its just a matter o
 - Through the learning process, we will be creating multiple mini, midlevel and fully flegged apps based on the level of Learning.
 - Since one can't build apps fully using just one language, we will be building apps using techstacks, we will also be building them according to the programming language we've decided to focus on.
 - Don't forget to read the README.md Documentations.
+
+## Programming Languages Covered in that order.
+PHP
