@@ -25,4 +25,14 @@ Let us break down each component:
 // This Architecture is the basis of all modern computers and is the foundation of how programming languages work.
 
 // Therefore it will serve as the basis of our programming Curriculum, no matter what language we use (Hopefully).
+
+// Rules of Engagement
+// 1. No matter what you've heard about a programming language, they all boil down to the same basic concepts.
+// 2. Programming is both easy and fun. But it needs practice, you need to code.
+// 3. Don't be afraid to make mistakes, its how you know what works and what doesn't.
+// 4. I use Windows, so I'll teach in windows, but I'll leave the setup notes for MacOS and Linux in the README file on my GitHub repo.
+// 5. Some programming languages will require more setup than others, but I'll try to keep it as simple as possible.
+// 6. Examples will be based on handson projects and real world applications. This is not a theoretical course.
+
+// And with that, pick your poison, and let us begin our journey into the world of programming.
 ?>

@@ -1,20 +1,38 @@
 # DevRoadmap
-Most people say Software development is hard, I believe that its just a matter of Understanding the Fundamentals, so I'll be learning every programming language based on its particular paradigms, hopefully ordering them in terms of complexity and learning curve, but eventually documenting the learning process in the documentations.
- 
-## Roadmap
-- We first begin from how the computer works, The Von Neumann Architecture by John Von Neumann, that part is theoretical.
-- Then will cover programming aspects from input and output, along with learning variables and arithmetic operations. As well as structured programming and data structures and algorithms (Including Design and Analysis of Algorithms).
-- Then we'll learn Imperative and Declarative programming paradigms as well as Operating System Algorithms so as to learn memory, resource and File management.
-- We will also go through File Management.
-- We will cover network protocols.
-- We will cover Distributed Systems (APIs)
-- We will cover cloud Computing
-- We will cover AI and ML(Minus the Math, youre on your own with that one).
 
-## Outcome
-- Through the learning process, we will be creating multiple mini, midlevel and fully flegged apps based on the level of Learning.
-- Since one can't build apps fully using just one language, we will be building apps using techstacks, we will also be building them according to the programming language we've decided to focus on.
-- Don't forget to read the README.md Documentations.
+## Introduction
+Most people say Software development is hard, I believe that its just a matter of Understanding the Fundamentals, so I'll teach them to you to prove you can learn them all if you understand the core
+fundamentals.
 
-## Programming Languages Covered in that order.
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+### Overview
+In order to understand Programming in any language, you need to understand how the computer works.
+
+#### How a computer works
+**The Von Neumann Architecture**
+This Architecture is the basis of all modern computers and is the foundation of how programming languages work. Therefore it will serve as the basis of our programming Curriculum, no matter what language we use (Hopefully).
+- I/O (Input/Output)
+- Memory (RAM, ROM, Cache)
+- CPU (ALU/CU/Registers)
+- Bus (Data Bus, Address Bus, Control Bus)
+- Storage (HDD, SSD, Optical, Flash)
+- Software (Operating System, Applications)
+- Network (LAN, WAN, Internet)
+
+#### Let us break down each component:
+- I/O (Input/Output): This is how the computer communicates with the outside world. Input devices include keyboards, mice, and scanners. Output devices include monitors, printers, and speakers.
+- Memory: This is where the computer stores data temporarily while it is being processed. RAM (Random Access Memory) is the most common type of memory used in computers. ROM (Read-Only Memory) is used to store firmware and other permanent data. Cache is a small amount of high-speed memory that is used to store frequently accessed data.
+- CPU (Central Processing Unit): This is the brain of the computer. It is responsible for executing instructions and performing calculations. The CPU is made up of the ALU (Arithmetic Logic Unit), CU (Control Unit), and Registers.
+- Bus: This is a communication system that transfers data between different components of the computer. The Data Bus carries data, the Address Bus carries memory addresses, and the Control Bus carries control signals.
+- Storage: This is where the computer stores data permanently. Common types of storage include HDD (Hard Disk Drive), SSD (Solid State Drive), Optical (CD/DVD), and Flash (USB drives).
+- Software: This is the set of instructions that tells the computer what to do. The Operating System (OS) is the most important software on a computer, as it manages the hardware and software resources. Applications are programs that perform specific tasks, such as word processing or web browsing.
+- Network: This is how computers communicate with each other. LAN (Local Area Network) is a network that connects computers within a small area, such as a home or office. WAN (Wide Area Network) is a network that connects computers over a large area, such as the internet.
+
+## Rules of Engagement
+1. No matter what you've heard about a programming language, they all boil down to the same basic concepts.
+2. Programming is both easy and fun. But it needs practice, you need to code.
+3. Don't be afraid to make mistakes, its how you know what works and what doesn't.
+4. I use Windows, so I'll teach in windows, but I'll leave the setup notes for MacOS and Linux in the README file on my GitHub repo.
+5. Some programming languages will require more setup than others, but I'll try to keep it as simple as possible.
+6. Examples will be based on handson projects and real world applications. This is not a theoretical course.
+
+And with that, **pick your poison**, and let us begin our journey into the world of **programming**.
