@@ -1,20 +1,28 @@
 <?PHP
-/* 
-You can output Information in two ways, there's echo and print
-They are both the same, except for a few small difference:
-- Echo has no return Value where as Print has a return value of 1, allowing it to be used in expressions (we'll learn about those later)
-- Echo can take multiple parameters whereas print only takes one arguement.
-- Echo is marginaly faster than Print.
+// PHP Fundamentals
+// In order to understand Programming in any language, you need to understand how the computer works.
+/*
+How a computer works
+The Von Neumann Architecture
+- I/O (Input/Output)
+- Memory (RAM, ROM, Cache)
+- CPU (ALU/CU/Registers)
+- Bus (Data Bus, Address Bus, Control Bus)
+- Storage (HDD, SSD, Optical, Flash)
+- Software (Operating System, Applications)
+- Network (LAN, WAN, Internet)
+
+Let us break down each component:
+- I/O (Input/Output): This is how the computer communicates with the outside world. Input devices include keyboards, mice, and scanners. Output devices include monitors, printers, and speakers.
+- Memory: This is where the computer stores data temporarily while it is being processed. RAM (Random Access Memory) is the most common type of memory used in computers. ROM (Read-Only Memory) is used to store firmware and other permanent data. Cache is a small amount of high-speed memory that is used to store frequently accessed data.
+- CPU (Central Processing Unit): This is the brain of the computer. It is responsible for executing instructions and performing calculations. The CPU is made up of the ALU (Arithmetic Logic Unit), CU (Control Unit), and Registers.
+- Bus: This is a communication system that transfers data between different components of the computer. The Data Bus carries data, the Address Bus carries memory addresses, and the Control Bus carries control signals.
+- Storage: This is where the computer stores data permanently. Common types of storage include HDD (Hard Disk Drive), SSD (Solid State Drive), Optical (CD/DVD), and Flash (USB drives).
+- Software: This is the set of instructions that tells the computer what to do. The Operating System (OS) is the most important software on a computer, as it manages the hardware and software resources. Applications are programs that perform specific tasks, such as word processing or web browsing.
+- Network: This is how computers communicate with each other. LAN (Local Area Network) is a network that connects computers within a small area, such as a home or office. WAN (Wide Area Network) is a network that connects computers over a large area, such as the internet.
 */
-// Echo can be written as either one of the following, and yes, it also supports HTML:
-echo "Hello World \r\n";
-echo("Hello World \r\n");
-echo "different values "."are joined together in echo "."using the period symbol(.) \r\n";
 
-// The same works for print
-print "Hello World \r\n";
-print("Hello World \r\n");
-print "different values "."are joined together in echo "."using the period symbol(.) \r\n";
+// This Architecture is the basis of all modern computers and is the foundation of how programming languages work.
 
-// When to use Print and Echo
+// Therefore it will serve as the basis of our programming Curriculum, no matter what language we use (Hopefully).
 ?>
