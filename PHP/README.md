@@ -1,26 +1,66 @@
-# PHP
-PHP is a scripting Language that's also a hypertext preprocessor, this means that despite the fact that its a serverside scripting language, it also has support for HTML tags, opening up infinite posibilities for web development
-- PHP uses the Web Stack : HTML, CSS, JS, PHP, and MySQL.
+# Welcome To PHP
+PHP(Formerly Personal Home Page, now Hypertext Preprocessor) is a server-side scripting language designed for web development but also used as a general-purpose programming language.
 
-## Prerequisites
-- First lets setup your development environment, you'll need a
-- Server Simmulator (WAMP(What I use, WINDOWS only), MAMP(MacOS), LAMP(Linux), XAMPP(Cross Platform)
-- Then you'll need a text editor or IDE(Integrated Development Environment) (VScode, PHPStorm)
-- And Lastly a browser.
+However, we won't focus on server-side scripting just yet.
 
-NB: I wont be teaching you how to install any of these, please visit their website for more details. 
+# 1. Setup PHP Environment
 
-## 01. The PHP Structure
-So PHP Supports HTML so by default, utilizes HTML Tags, however the PHP script runs exclusively in its own tag:
-Comments are lines of code that wont run on output are written using `//` For single lines or `/* ... */` for multiple lines.
-```
-<?PHP
-// Your PHP Script goes here
-?>
-```
-From this point forward I'll be posting code snippets assuming you've encapsulated your PHP script in the PHP tag `<?PHP ... ?>`, also we'll be running our code through the terminal, because we can and we dont need it for server side scripting for now. Always remember to turn your Server Simmulator first before running PHP scripts.
+Before you can run PHP code, you need three main tools:
 
-To run PHP scripts in your terminal, navigate to your php file and type in `php filename.php`
-```
-B:\filedirectory> php filename.php
-```
+1. **A Web Browser** – e.g., Chrome, Firefox, Edge.  
+   - This is how you’ll *see* the results of your PHP code.  
+
+2. **A Text Editor or IDE (Integrated Development Environment)** –  
+   - Example: **VS Code** (recommended), Sublime Text, or PHPStorm.  
+   - This is where you’ll *write* your code.  
+
+3. **The PHP Environment** –  
+   - This is what *executes* your PHP code. You can set it up in two ways:  
+     - **Manual installation** (advanced: installing PHP, Apache, MySQL separately, But we'll only install PHP).  
+     - **Using a Server Simulator** (easy mode, all-in-one).  
+
+---
+
+## Installing a Server Simulator (The Easy Way)
+
+Server Simulators are beginner-friendly tools that bundle PHP with other necessary components like **Apache** (web server) and **MySQL** (database).  
+
+👉 Think of them as a “ready-made kitchen” — you don’t have to buy each utensil separately.  
+
+---
+
+## Popular Server Simulators
+
+### 1. WAMP (Best for Windows)  
+- Download: [WAMP](https://sourceforge.net/projects/wampserver/)  
+- Install it like a normal Windows program.  
+- Once installed, launch WAMP. You’ll see a green/orange/red icon in the system tray (bottom-right corner).  
+- **Turn services on**:  
+  - Left-click the WAMP icon → Start **Apache** (for running PHP) and **MySQL** (for databases).  
+  - Make sure the icon turns **green** (means everything is running).  
+- Your local web server is now ready!  
+
+📂 Save your PHP files inside:  where_you_installed_wamp/wamp64/www/
+
+---
+
+### 2. XAMPP (Cross-Platform, More Complex)  
+- Download: [XAMPP](https://www.apachefriends.org/index.html)  
+- Works on **Windows, Mac, Linux**.  
+- Install it → Open the **XAMPP Control Panel**.  
+- Start **Apache** and **MySQL** (they’ll show a green “Running” label).  
+- Your local web server is ready.  
+
+📂 Save your PHP files inside:  where_you_installed_xampp/xampp/htdocs/
+
+🔗 Run in browser:  localhost/projectfoldername/yourfile.php
+
+
+**Benefits**
+- Server Simulators offer the basic web server services (Apache, PHP, MySQL, and so on)
+- You turn on the server and forget about it, for every time you turn your computer on.
+
+
+
+
+*/
