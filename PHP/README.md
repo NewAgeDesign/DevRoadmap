@@ -45,7 +45,7 @@ Server Simulators are beginner-friendly tools that bundle PHP with other necessa
 ---
 
 ### 2. XAMPP (Cross-Platform, More Complex)  
-- Download: [XAMPP](https://www.apachefriends.org/index.html)  
+- Download: [XAMPP](https://www.apache_friends.org/index.html)  
 - Works on **Windows, Mac, Linux**.  
 - Install it → Open the **XAMPP Control Panel**.  
 - Start **Apache** and **MySQL** (they’ll show a green “Running” label).  
@@ -53,7 +53,7 @@ Server Simulators are beginner-friendly tools that bundle PHP with other necessa
 
 📂 Save your PHP files inside:  where_you_installed_xampp/xampp/htdocs/
 
-🔗 Run in browser:  localhost/projectfoldername/yourfile.php
+🔗 Run in browser:  localhost/project_folder_name/yourfile.php
 
 
 **Benefits**
@@ -61,6 +61,16 @@ Server Simulators are beginner-friendly tools that bundle PHP with other necessa
 - You turn on the server and forget about it, for every time you turn your computer on.
 
 
+## Installing the PHP Environment (The Hard Way)
+PHP can also be installed separately, though it won't give you server like functions so we'll have to run our programs in the Command line(CMD, Powershell, VSCode CLI).
 
+- Go to the [PHP website](#)
+- Select Download
+- Choose the PHP Version you'd like to download, I'll be using PHP 8.4.3
+- Once downloaded, extract the file and place it in the C: directory.
+- Open Environment Variables
+- Edit Path and add your PHP directory (C:\PHP8.X.X\)
+- Open your Terminal of choice and type php -version
 
+to run your program, navigate to the file using your prefered terminal, or use vscode, the terminal will already take you to the folder by default, then type php filename.php
 */
