@@ -72,5 +72,12 @@ PHP can also be installed separately, though it won't give you server like funct
 - Edit Path and add your PHP directory (C:\PHP8.X.X\)
 - Open your Terminal of choice and type php -version
 
-to run your program, navigate to the file using your prefered terminal, or use vscode, the terminal will already take you to the folder by default, then type php filename.php
-*/
+to run your program, navigate to the file using your prefered terminal, or use vscode, the terminal will already take you to the folder by default, then type php filename.php, this also works with the server simulator
+
+And with that, you can create a PHP file, and start off with `01_Fundamentals.php`
+
+PHP Syntax:
+````PHP
+   <?php
+   // This is a comment, your code starts here.
+   ?>
